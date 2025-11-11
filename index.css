@@ -1,5 +1,6 @@
 body{
     background-color: #006df7;
+    width: 100vw;
 }
 nav{
     display: flex;
@@ -7,8 +8,9 @@ nav{
     gap: 150px;
     background-color: #006df7;
     position: sticky;
+    position: relative;
     top: 0;
-    width: 102%;
+    width: 100vw;
     margin-left: -7px;
 }
 .left{
@@ -80,7 +82,7 @@ nav{
 }
 .on{
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
 }
 .pa{
@@ -89,8 +91,8 @@ nav{
     font-size: 20px;
 }
 .baba{
-    width: 102%;
-    height: 400vh;
+    width: 100vw;
+    height: 375vh;
     background-color: white;
     margin-left: -7px;
 }
@@ -141,4 +143,314 @@ nav{
     z-index: 100;
     margin-top: 230px;
     margin-left: 40px;
+}
+.big-card{
+    display: flex;
+    justify-content:space-between;
+}
+.big-card div{
+    width: 365px;
+    height: 35pc;
+}
+.big-card div h4{
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.big-card div p{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: -50px;
+    font-family: sans-serif;
+}
+.big-card div button{
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.big-card div:first-child{
+    background-color: #f6f0ef;
+}
+.big-card div:nth-child(2){
+    background-color: #f4f1f7;
+}
+.big-card div:nth-child(3){
+    background-color: #e8f4ff;
+}
+.big-card div:nth-child(4){
+    background-color: #ebf1ff;
+}
+.note{
+    width: 100vw;
+    height: 50vh;
+    background-color: #006df7;
+    
+    justify-items: center;
+}
+.note h3{
+    font-size: 50px;
+    color: white;
+}
+.note p{
+    font-size: 23px;
+    color: white;   
+    margin-top: -20px;
+}
+.note p{
+    font-size: 23px;
+    color: white;   
+    margin-top: -30px;
+}.note p{
+    font-size: 23px;
+    color: white;   
+    margin-top: -20px;
+}
+.note button{
+    width: 200px;
+    height: 50px;
+    margin-left: 750px;
+    border-radius: 20px;
+}
+.baba2{
+    width: 100vw;
+    height: 170vh;
+    background-color: white;
+    margin-left: -17px;
+}
+.ori{
+    justify-items: center;
+    padding-top: 60px;
+}
+.ori h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.ori p{
+    font-size: 35px;
+    margin-top: -20px;
+}
+.cardd{
+    display: flex;
+    justify-content: space-between;
+}
+.cardd div{
+    width: 365px;
+    height: 20pc ;
+    background-color: #f9fafb;
+}
+.cardd span{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cardd p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.lastt{
+    margin-top: 200px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lastt h4{
+    font-size: 20px;
+}
+.download{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.drop-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    top: 6vh;
+    gap: 10px;
+    display: none;
+    left: 0;
+    color: black;
+    background-color: white;
+    margin-left: 80px;
+}
+.drop-down .download{
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+.drop-down hr{
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+@media (max-width:760px) {
+    .left .first, .left .first div,.business,.what,.wealth,.right .arow, .right .download,.right .ng{
+        display: none;
+    }
+    body{
+        width: 100vw;
+    }
+    nav{
+        width: 100vw;
+        position: sticky;
+        margin-left: -80px;
+        position: sticky;
+    }
+    .menu{
+        display: block;
+    }
+    .right:hover .drop-down{
+        display: flex;
+    }
+    .right:hover .menu{
+        content: url(../credpal.com/iconoir--cancel.svg);
+    }
+    .drop-down .download{
+        display: block;
+    }
+    .big-div{
+        flex-direction: column;
+    }
+    .big-div .lef h1{
+        font-size: 40px;
+        margin-top: 160px;
+        margin-left: -70px;
+    }
+    .big-div .lef p{
+        font-size: 16px;
+        margin-left: -70px;
+    }
+    .big-div .righ{
+        display: none;
+    }
+    .baba{
+        width: 100vw;
+        height: 520vh;
+        background-color: white;
+        justify-content: space-around;
+    }
+    .le{
+        margin-top: -140px;
+    }
+    .ost{
+        margin-top: -70px;
+    }
+    .mira{
+        margin-left: -0.1px;
+    }
+    .mira2{
+        margin-left: 0.1px;
+    }
+
+    .baba2,.mira,.imgr{
+        width: 90vw;
+        margin-left: 20px;
+    }
+    .baba .mira .le{
+        margin-left: 20px;
+    }
+    .baba .mira2 .ost{
+        margin-left: 40px;
+    }
+    .mira,.mira2{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .big-card{
+        flex-direction: column;
+        justify-items: space-around;
+    }
+    .big-card .one {
+        width: 90vw;
+        height: 30vh;
+        margin-left: 30px;
+    }
+    .big-card .two {
+        width: 90vw;
+        height: 30vh;
+        margin-left: 30px;
+    }
+    .big-card div { 
+        /* height: 20vh; */
+        margin-bottom: 80px;
+    }
+    .big-card div h4 { 
+        font-size: 40px;
+        margin-top: -6px;
+    }
+    .big-card div p { 
+        font-size: 25px;
+        margin-top: -40px;
+    }
+    /* .big-card div img { 
+        width: 40px;
+        margin-top: -8px;
+    } */
+    .big-card .one{
+        margin-top: 50px;
+    }
+    .big-card .two{
+        margin-top: -70px;
+    }
+    .note{
+        margin-top: 100px;
+    }
+    .note,.paa{
+        margin-top: -30px;
+    }
+    .note button{
+        margin-left: -1px;
+    }
+    .note .laa{
+        margin-left: 270px;
+    }
+    .baba2{
+        margin-top: -220px;
+        width: 100vw;
+        height: 320vh;
+        margin-left: -7px;
+    }
+    .cardd{
+        flex-direction: column;
+    }
+    .lastt{
+        flex-direction: column;
+    }
+    .baba2 .cardd {
+        gap: 30px;
+    }
+    .baba2 .cardd div{
+        width: 80vw;
+    }
+    .lastt div{
+        margin-left: -430px;
+    }
+    .lastt .shift1{
+        margin-left: -560px;
+    }
+    .lastt .shift2{
+        margin-left: -560px;
+    }
+    .lastt .shift3{
+        margin-left: -540px;
+    }
+    .lastt .shift4{
+        margin-left: -560px;
+    }
+    .lastt .shift5{
+        margin-left: -560px;
+    }
 }
