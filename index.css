@@ -1,6 +1,7 @@
 body{
     background-color: #006df7;
     width: 100vw;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -92,7 +93,7 @@ nav{
 }
 .baba{
     width: 100vw;
-    height: 375vh;
+    height: 405vh;
     background-color: white;
     margin-left: -7px;
 }
@@ -150,7 +151,7 @@ nav{
 }
 .big-card div{
     width: 365px;
-    height: 35pc;
+    height: 30pc;
 }
 .big-card div h4{
     font-size: 50px;
@@ -186,7 +187,7 @@ nav{
     width: 100vw;
     height: 50vh;
     background-color: #006df7;
-    
+    /* margin-top: 20vh; */
     justify-items: center;
 }
 .note h3{
@@ -302,6 +303,7 @@ nav{
     }
     body{
         width: 100vw;
+        
     }
     nav{
         width: 100vw;
